@@ -1,0 +1,10 @@
+-- 01_create_database_schema.sql
+-- Създаване на база данни и схема за казус 1
+
+CREATE OR REPLACE DATABASE ECOMERSE_DB;
+
+USE DATABASE ECOMERSE_DB;
+
+CREATE OR REPLACE SCHEMA ECOMERSE_DB.RAW;
+
+USE SCHEMA ECOMERSE_DB.RAW;
